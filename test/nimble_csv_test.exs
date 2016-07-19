@@ -1,7 +1,7 @@
 defmodule NimbleCSVTest do
   use ExUnit.Case
 
-  alias NimbleCSV.RFC4180, as: CSV
+  alias NimbleCSV, as: CSV
 
   test "parse_string/2" do
     assert CSV.parse_string("""
